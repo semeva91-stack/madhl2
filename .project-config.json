@@ -1,0 +1,43 @@
+{
+  "build_command": "pnpm run build",
+  "capabilities": [
+    "db",
+    "server",
+    "user"
+  ],
+  "dev_command": "pnpm run dev",
+  "env_vars": {
+    "DATABASE_URL": "mysql://36ocpkGqhxti59j.root:eJzmrsL9n6dhk90a51Kx@gateway02.us-east-1.prod.aws.tidbcloud.com:4000/ZYnN9fwRaoaFohtTsp6X7E?ssl={\"rejectUnauthorized\":true}"
+  },
+  "experiments": [
+    "no_db_push"
+  ],
+  "git_remote": {
+    "repo_url": "https://7f0548f6b28a1758d9bf7be630d36cb4.artifacts.cloudflare.net/git/prod/ZYnN9fwRaoaFohtTsp6X7E.git",
+    "expiration": "2026-09-27T16:02:58.617Z",
+    "token": "art_v2_x_263ee577e04325699ed4fbdd8708feca748e280f?expires=1790524978",
+    "backend": "GIT_BACKEND_ARTIFACTS"
+  },
+  "name": "sallaq-sales-system",
+  "path": "/home/ubuntu/sallaq-sales-system",
+  "port": 3000,
+  "runtime_endpoints": null,
+  "secrets": {
+    "BUILT_IN_FORGE_API_KEY": "ewGY9dm4Vp5PezfVrGjUAv",
+    "BUILT_IN_FORGE_API_URL": "https://forge.manus.ai",
+    "JWT_SECRET": "Do6CYnMFJZ2De5rpPGwHPJ",
+    "OAUTH_SERVER_URL": "https://api.manus.im",
+    "OWNER_NAME": "زبون",
+    "OWNER_OPEN_ID": "fe4PCHK65ceznxY8YE7pPb",
+    "VITE_ANALYTICS_ENDPOINT": "https://manus-analytics.com",
+    "VITE_ANALYTICS_WEBSITE_ID": "39dee30d-50a1-447c-a9f3-036db795f815",
+    "VITE_APP_ID": "ZYnN9fwRaoaFohtTsp6X7E",
+    "VITE_APP_LOGO": "https://files.manuscdn.com/user_upload_by_module/web_dev_logo/310519663951835182/fRqWtNjKyNrlZWHH.png",
+    "VITE_APP_TITLE": "Sallaq POS | نظام سلعك للمبيعات",
+    "VITE_FRONTEND_FORGE_API_KEY": "gX3PwdDEwg7spLiA4iGm7M",
+    "VITE_FRONTEND_FORGE_API_URL": "https://forge.manus.ai",
+    "VITE_OAUTH_PORTAL_URL": "https://manus.im"
+  },
+  "template_id": "web-db-user",
+  "test_command": "pnpm test"
+}
